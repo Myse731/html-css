@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8fa8bf;
+}
+
+tr{
+    border-bottom: 1px solid #e0e0e0;
+}
+td{
+    padding: 16px;
+}
+
+th{
+    padding: 16px;
+    
+}
+
+.container{
+    width: 800px;
+    height: 540px;
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a8bfcf;
+    padding: 30px;
+    vertical-align: middle;
+}
+
+.p1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.p2{
+    font-size: 18px;
+    margin:0;
+    
+}
+
+.p3{
+    font-size: 15px;
+    margin:0;
+    color:rgb(29, 115, 172);
+}
+
+.space{
+    text-align: start;
+}
+
+.space1{
+    text-align: center;
+}
+
+.img {    
+  vertical-align: middle;    
+}
+
+.image{
+    margin: 30px;
+}
+
+.gang1{
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.send{
+    padding: 15px 30px;
+    background-color: rgb(21, 12, 65);
+    border-radius: 5px;
+    float: right;
+    color: white;
+    font-size: 14px;
+}
+
+.div1{
+    margin-top: 45px;
+    display: inline-block;
+}
+
+.div2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: right;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;  /* 셀 테두리 합치기 (필수!) */
+  /* border-collapse: separate; 기본값, 테두리 분리 */
+}
+
+.ef{
+    border: none;
+}

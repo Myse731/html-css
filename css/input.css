@@ -1,0 +1,119 @@
+div {
+  box-sizing : border-box;
+}
+body {
+  margin : 0;
+}
+html {
+  line-height : 1.15; /*기본 행간 높이*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 16px;
+}
+
+.box{
+    border: 1px solid #aaa;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 650px;
+    height: 740px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 32px;
+}
+
+.hbox{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 30px;
+}
+.hh{
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+input::placeholder {
+    color: #aaa;
+    padding-left: 10px;
+    font-size: 16px;
+    padding-top: 13px;
+}
+
+.row {
+    font-size: 0;
+    margin-bottom: 40px;
+}
+
+.row div {
+    display: inline-block;
+    width: 48%;
+}
+
+.input1{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 55px;
+    border: 1px solid #aaa;
+    border-radius: 7px;
+}
+
+.rightgg{
+    border-radius: 7px;
+    border: 1px solid #aaa;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+}
+
+.leftgg{
+    border-radius: 7px;
+    border: 1px solid #aaa;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+}
+
+.input2{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #aaa;
+    border-radius: 7px; 
+}
+
+.checkDiv check{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    display: block;
+
+}
+
+.checkDiv{
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+}
+
+.send{
+    margin-top: 10px;
+    width: 28%;
+    height: 70px;
+    background-color: orange;
+    border-radius: 5px;
+    float: right;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.col1{
+    margin-right: 4%;
+}

@@ -1,0 +1,64 @@
+.navbar li{
+    display: inline-block;
+}
+
+.navbar{
+    margin-top: 0;
+    margin-bottom: 0;
+    height: auto;
+    padding: 15px;
+    background-color: black;
+}
+
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+}
+
+h1{
+    margin: 0;
+}
+
+/* 틴트 적용 */
+body {
+  background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(../shoes-1.jpg);
+  background-size : cover;
+  background-repeat : no-repeat;
+  background-position : center;
+  background-attachment : fixed;
+}
+
+.main-title{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:15px;
+}
+
+.main-desc{
+    text-align: center;
+    position: relative;
+    top:15px;
+    color: white;
+}
+
+.main-btn{
+    width: auto;
+    height: auto;
+    padding: 5px 15px;
+    text-decoration: None;
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    left: 45%;
+    font-size : 15px;
+    border-radius: 25px;
+    color:black;
+}
+
+.info-box {
+    text-align: center;
+    
+}
