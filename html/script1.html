@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/script.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="alert-warning alert-box" id = "어쩌구1">
+        <strong>알림!</strong>
+        <span>아래 내용을 확인해주세요</span>
+        <button class="close-btn" onclick="닫기('어쩌구1');"> X </button>
+    </div>
+    <div class="alert-info alert-box" id = "어쩌구2">
+        <strong>알림!</strong>
+        <span>아래 내용을 확인해주세요</span>
+        <button class="close-btn" onclick="닫기('어쩌구2')"> X </button>
+    </div>
+    <div class="alert-secondary alert-box" id = "어쩌구3">
+        <strong>알림!</strong>
+        <span>아래 내용을 확인해주세요</span>
+        <button class="close-btn" onclick="닫기('어쩌구3')"> X </button>
+    </div>
+    <button class="show-btn" onclick="열기()">다시 띄우기</button>
+
+    <script>
+    function 닫기(n){
+        document.getElementById(n).style.display = 'none';
+    }
+    function 열기(){
+        document.getElementById('어쩌구1').style.display = 'block';
+        document.getElementById('어쩌구2').style.display = 'block';
+        document.getElementById('어쩌구3').style.display = 'block';
+    }
+    </script>
+
+
+</body>
+
+</html>
+

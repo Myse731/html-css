@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href ="../css/script2.css" rel ="stylesheet">
+</head>
+<body>
+    <button class ="one-btn" id="a">버튼1</button>
+    <button class ="two-btn" id = "b">버튼2</button>
+     <div class="alert-warning alert-box" style = "display:none" id = "어쩌구1">
+        <strong>알림!</strong>
+        <span>아이디를 입력해주세요</span>
+        <button class="close-btn"> X </button>
+    </div>
+    <div class="alert-info alert-box" style = "display:none" id = "어쩌구2">
+        <strong>알림!</strong>
+        <span>비밀번호를 입력해주세요</span>
+        <button class="close-btn"> X </button>
+    </div>
+</body>
+<script>
+        document.querySelector('#'+a).addEventListener('click', function(){document.querySelector('#'+n).style.display = 'none'});
+        document.querySelector('#'+b).addEventListener('click' , function(){document.querySelector('#'+n).style.display = 'block'});
+</script>
+</html>
