@@ -12,16 +12,19 @@
      <div class="alert-warning alert-box" style = "display:none" id = "어쩌구1">
         <strong>알림!</strong>
         <span>아이디를 입력해주세요</span>
-        <button class="close-btn"> X </button>
+        <button class="close-btn" id = ㅇㅉ1> X </button>
     </div>
     <div class="alert-info alert-box" style = "display:none" id = "어쩌구2">
         <strong>알림!</strong>
         <span>비밀번호를 입력해주세요</span>
-        <button class="close-btn"> X </button>
+        <button class="close-btn" id = ㅇㅉ2> X </button>
     </div>
 </body>
 <script>
-        document.querySelector('#'+a).addEventListener('click', function(){document.querySelector('#'+n).style.display = 'none'});
-        document.querySelector('#'+b).addEventListener('click' , function(){document.querySelector('#'+n).style.display = 'block'});
+        document.querySelector('#a').addEventListener('click', function(){document.querySelector('#어쩌구1').style.display = 'block'});
+        document.querySelector('#b').addEventListener('click', function(){document.querySelector('#어쩌구2').style.display = 'block'});
+
+        document.querySelector('#ㅇㅉ1').addEventListener('click', function(){document.querySelector('#어쩌구1').style.display = 'none'});
+        document.querySelector('#ㅇㅉ2').addEventListener('click', function(){document.querySelector('#어쩌구2').style.display = 'none'});
 </script>
 </html>
