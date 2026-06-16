@@ -1,0 +1,14 @@
+<div class="alert">
+    <span id = 's'>5</span>초 이내 구매시 사은품 증정
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    let a = 5;
+    setInterval(function () {
+        a -= 1;
+        $('#s').html(a);
+        if(a == 0){
+            $('.alert').fadeOut();
+        }
+    }, 1000);
+</script>

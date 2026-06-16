@@ -1,0 +1,25 @@
+//index.html
+<p>태조 이성계가 태어난 년도는?</p>
+<input type="text" id="answer">
+<button id="send-answer">제출</button>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    var a = 0;
+    $('#send-answer').on('click', function(e){
+        if ($('#answer').val() == '1335'){
+            e.preventDefault();
+            alert('정답 맞췄어');
+        }
+        else{
+            if(a >= 2){
+                e.preventDefault();
+                alert('멍청이');
+            }
+            else if($('#answer').val() != 1335){
+                e.preventDefault();
+                a += 1;
+                alert('틀렸어');
+            }
+        }
+    });
+</script>
